@@ -1,0 +1,26 @@
+test_api_real_http (test_matching.MatchingTests.test_api_real_http) ... 127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /predict?crm_id=CRM-1001&calendar_id=CAL-A1 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /matches?crm_id=CRM-1005 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /duplicates HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /predict HTTP/1.1" 400 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /predict?crm_id=bad&calendar_id=bad HTTP/1.1" 404 -
+127.0.0.1 - - [29/Sep/2026 09:32:45] "GET /missing HTTP/1.1" 404 -
+ok
+test_bad_date_does_not_match (test_matching.MatchingTests.test_bad_date_does_not_match) ... ok
+test_date_repair (test_matching.MatchingTests.test_date_repair) ... ok
+test_duplicate_candidate (test_matching.MatchingTests.test_duplicate_candidate) ... ok
+test_duplicate_id_quarantined (test_matching.MatchingTests.test_duplicate_id_quarantined) ... ok
+test_email_repair_and_placeholder (test_matching.MatchingTests.test_email_repair_and_placeholder) ... ok
+test_labeled_regression (test_matching.MatchingTests.test_labeled_regression) ... ok
+test_labels_not_required_for_inference (test_matching.MatchingTests.test_labels_not_required_for_inference) ... ok
+test_missing_time_can_match (test_matching.MatchingTests.test_missing_time_can_match) ... ok
+test_modality_conflict_not_veto (test_matching.MatchingTests.test_modality_conflict_not_veto) ... ok
+test_no_mutation (test_matching.MatchingTests.test_no_mutation) ... ok
+test_recurrences_not_duplicates (test_matching.MatchingTests.test_recurrences_not_duplicates) ... ok
+test_timezone_uses_dst (test_matching.MatchingTests.test_timezone_uses_dst) ... ok
+test_unlabeled_pairs_excluded (test_matching.MatchingTests.test_unlabeled_pairs_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.077s
+
+OK

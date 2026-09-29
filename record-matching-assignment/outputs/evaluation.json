@@ -1,0 +1,147 @@
+{
+  "cross_source": {
+    "labeled_pairs": 13,
+    "tp": 8,
+    "fp": 0,
+    "fn": 0,
+    "tn": 5,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "errors": []
+  },
+  "duplicate_detection": {
+    "labeled_pairs": 1,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "tn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0,
+    "errors": []
+  },
+  "labeled_predictions": [
+    {
+      "crm_id": "CRM-1001",
+      "calendar_id": "CAL-A1",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 1.0,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1002",
+      "calendar_id": "CAL-A2",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 0.825,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1006",
+      "calendar_id": "CAL-A7",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 1.0,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1008",
+      "calendar_id": "CAL-A9",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 1.0,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1011",
+      "calendar_id": "CAL-A12",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 0.8775,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1014",
+      "calendar_id": "CAL-A15",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 0.8684,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1016",
+      "calendar_id": "CAL-A17",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 0.82,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1017",
+      "calendar_id": "CAL-A20",
+      "match": true,
+      "actual": true,
+      "predicted": true,
+      "confidence": 0.8917,
+      "decision": "match"
+    },
+    {
+      "crm_id": "CRM-1001",
+      "calendar_id": "CAL-A8",
+      "match": false,
+      "actual": false,
+      "predicted": false,
+      "confidence": 0.0,
+      "decision": "non_match"
+    },
+    {
+      "crm_id": "CRM-1004",
+      "calendar_id": "CAL-A21",
+      "match": false,
+      "actual": false,
+      "predicted": false,
+      "confidence": 0.0,
+      "decision": "non_match"
+    },
+    {
+      "crm_id": "CRM-1008",
+      "calendar_id": "CAL-A16",
+      "match": false,
+      "actual": false,
+      "predicted": false,
+      "confidence": 0.0,
+      "decision": "non_match"
+    },
+    {
+      "crm_id": "CRM-1006",
+      "calendar_id": "CAL-A3",
+      "match": false,
+      "actual": false,
+      "predicted": false,
+      "confidence": 0.0,
+      "decision": "non_match"
+    },
+    {
+      "crm_id": "CRM-1009",
+      "calendar_id": "CAL-A19",
+      "match": false,
+      "actual": false,
+      "predicted": false,
+      "confidence": 0.0,
+      "decision": "non_match"
+    }
+  ],
+  "label_coverage": 0.029545454545454545,
+  "limitations": "Partial, small, visible label set; descriptive evaluation, not an independent test of generalization. Review decisions count as negative for binary metrics. Unlabeled pairs excluded."
+}

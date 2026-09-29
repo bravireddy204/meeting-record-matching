@@ -1,0 +1,3 @@
+# Matching, evaluation, API and tests use the Python standard library.
+# Windows usually lacks the system IANA timezone database.
+tzdata; sys_platform == "win32"
